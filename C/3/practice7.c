@@ -1,5 +1,5 @@
 ﻿/* No.29	Name細川 春希
-演習6「完全数」
+演習7「完全数」
 Programming/3/practice6.c
 */
 #include <stdio.h>
