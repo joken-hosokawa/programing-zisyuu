@@ -15,7 +15,7 @@ int main()
 	while( prime != numeric ) { // 素因数分解処理の継続条件を指定
 		while( numeric % prime == 0 ) { // primeで割り切れる場合
 			printf( "%d ", prime ); // primeは素因数として表示
-			break;
+			numeric /= prime; // numericの値を前のprimeで割った値に更新する
 		}
 		prime++;
 	}
