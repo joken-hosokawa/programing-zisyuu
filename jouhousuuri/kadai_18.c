@@ -7,7 +7,7 @@ int main()
 	fu = 0;
 
 	for(int k =0; k <= 10; k++){
-		printf("値：%d>")
+		printf("値：%d>");
 		scanf("%d",&a);
 		if(a < 0){
 			fu += 1;
