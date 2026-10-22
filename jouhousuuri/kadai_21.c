@@ -1,4 +1,4 @@
-﻿//課題21
+//課題21
 #include <stdio.h>
 
 int main()
@@ -15,3 +15,7 @@ int main()
 
 	return 0;
 }
+
+/*
+33
+*/

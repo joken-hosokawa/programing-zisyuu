@@ -1,4 +1,4 @@
-﻿//課題19
+//課題19
 #include <stdio.h>
 
 int main()
@@ -9,7 +9,7 @@ int main()
 	scanf("%d",&n);
 	
 	for(k = 1; k <= n; k++){
-		printf( "金額を入力>" );
+		printf( "%d個目の金額を入力>",k );
 		scanf("%d",&kin);
 		gou += kin;
 	}
@@ -20,7 +20,17 @@ int main()
 		poi += gou * 0.05;
 	}
 
-	printf("%d %.1f",gou,poi);
+	printf("%d %.1f\n",gou,poi);
 
 	return 0;
 }
+
+/*
+個数を入力>5
+1個目の金額を入力>900
+2個目の金額を入力>100
+3個目の金額を入力>459
+4個目の金額を入力>1233
+5個目の金額を入力>3214
+5906 295.3
+*/
