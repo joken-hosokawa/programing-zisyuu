@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+//課題18
+#include <stdio.h>
 
 int main()
 {
@@ -6,10 +7,12 @@ int main()
 	fu = 0;
 
 	for(int k =0; k <= 10; k++){
+		printf("値：%d>")
 		scanf("%d",&a);
 		if(a < 0){
 			fu += 1;
 		}
 	}
 	printf("%d",fu);
+	return 0;
 }
