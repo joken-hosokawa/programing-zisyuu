@@ -2,18 +2,15 @@
 #include <stdio.h>
 int main()
 {
-	int retu, j;
+	int gyou, retu, i, j;
 
-	scanf( "%d", &retu );
+	scanf( "%d %d", &gyou, &retu );
 
-	for( j = 1; j <= retu; j++ ) {
-		printf( "%d ", j );
+	for( i = 1; i <= gyou; i++ ) {
+		for( j = 1; j <= retu; j++ ) {
+			printf( "(%d,%d)", i, j );
+		}
+		printf( "\n" );
 	}
-	printf( "\n" );
 	return 0;
 }
-
-/*
-7
-1 2 3 4 5 6 7
-*/
