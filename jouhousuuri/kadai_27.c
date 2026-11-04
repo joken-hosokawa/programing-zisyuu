@@ -2,13 +2,13 @@
 #include <stdio.h>
 int main()
 {
-	int gyou, retu, i, j;
+	int gyou, i, j;
 
-	scanf( "%d %d", &gyou, &retu );
+	scanf( "%d", &gyou );
 
 	for( i = 1; i <= gyou; i++ ) {
-		for( j = 1; j <= retu; j++ ) {
-			if(   ) {
+		for( j = 1; j <= gyou; j++ ) {
+			if( i == j || gyou +1-j == i) {
 				printf( "■" );
 			} else {
 				printf( "□" );
