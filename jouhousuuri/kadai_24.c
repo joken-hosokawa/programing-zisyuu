@@ -8,10 +8,10 @@ int main()
 
 	for( i = 1; i <= gyou; i++ ) {
 		for( j = 1; j <= retu; j++ ) {
-			if( j % 2 != 0 )
-				printf( "■" );
-			else
+			if( j % 2 == 0 ) //偶数のとき
 				printf( "□" );
+			else //奇数のとき
+				printf( "■" );
 		}
 		printf( "\n" );
 	}
