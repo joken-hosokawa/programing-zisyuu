@@ -8,11 +8,10 @@ int main()
 
 	for( i = 1; i <= gyou; i++ ) {
 		for( j = 1; j <= gyou; j++ ) {
-			if( i == j ) {
+			if( i == j )
 				printf( "■" );
-			} else {
+			else
 				printf( "□" );
-			}
 		}
 		printf( "\n" );
 	}
