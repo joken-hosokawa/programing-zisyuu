@@ -8,11 +8,10 @@ int main()
 
 	for( i = 1; i <= gyou; i++ ) {
 		for( j = 1; j <= gyou; j++ ) {
-			if( i == j || i + j == gyou + 1 ) {
+			if( i == j || i + j == gyou + 1 ) //i=jまたは、i+jがgyou+1のとき
 				printf( "■" );
-			} else {
+			else
 				printf( "□" );
-			}
 		}
 		printf( "\n" );
 	}
