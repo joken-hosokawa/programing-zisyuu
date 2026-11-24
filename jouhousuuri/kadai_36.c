@@ -7,7 +7,7 @@ void main()
 
 	printf( "何月ですか>" );
 	scanf( "%d", &m );
-	printf( "%d月の日数は,%d\n", m, d[m + 1] );
+	printf( "%d月の日数は,%d\n", m, d[m - 1] );
 
 	return 0;
 }

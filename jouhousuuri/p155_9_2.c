@@ -3,9 +3,9 @@
 
 int main()
 {
-	char a = 0; //初期値が偶然xの場合実行されないことがあるため、初期化を行う。
+	char a;
 
-	while( a != 'x' ){
+	while( 1 ){
 		scanf( "%c", &a );
 		if( a == 'x' )
 			break;
@@ -14,3 +14,13 @@ int main()
 
 	return 0;
 }
+
+/*
+a
+a
+b
+b
+c
+c
+
+*/
