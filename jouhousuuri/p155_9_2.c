@@ -3,11 +3,14 @@
 
 int main()
 {
-	int i,sum = 0, n = 0;
-	char = a;
+	char a = 0; //初期値が偶然xの場合実行されないことがあるため、初期化を行う。
 
-	for()
+	while( a != 'x' ){
+		scanf( "%c", &a );
+		if( a == 'x' )
+			break;
+		printf( "%c", a );
+	}
 
-	printf( "%d", sum );
 	return 0;
 }
